@@ -9,6 +9,7 @@ public class MainTest {
     public static void main(String[] args) {
 
         //In this section we will daze the cellphone number
+        //The parenthesis character specific a group
         String reg = "^\\d+(\\d{2})$";
         String cad = "955622732";
         System.out.println(cad.replaceAll(reg, "*******$1"));
